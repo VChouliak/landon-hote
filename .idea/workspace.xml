@@ -20,10 +20,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="00a04495-e231-4f63-835a-ccc8125bf612" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/style.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/hotel/attractions.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/hotel/dining_lattes.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/hotel/dining_rooftop.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/hotel/dining_smoothiebar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/hotel/events_conference.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/hotel/events_wedding.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/hotel/intro_attractions.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/hotel/intro_dining.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/hotel/intro_pool.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/hotel/intro_room.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/hotel/intro_wedding.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/hotel/rooms_cambridge.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/hotel/rooms_manchester.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/hotel/rooms_oxford.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/hotel/rooms_piccadilly.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/hotel/rooms_victoria.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/hotel/rooms_westminster.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/hotel/splash_hotelphoto.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/attractions.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/dining.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/events.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/info.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/rooms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/misc/arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/misc/greenplanet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/socialmedia/facebook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/socialmedia/twitter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/socialmedia/youtube.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/IndexController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,8 +180,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -162,7 +196,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601456524088</updated>
-      <workItem from="1601456533060" duration="1753000" />
+      <workItem from="1601456533060" duration="4262000" />
     </task>
     <servers />
   </component>
