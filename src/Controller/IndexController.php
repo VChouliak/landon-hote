@@ -4,7 +4,13 @@
 namespace App\Controller;
 
 
-class IndexController
-{
+use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
+use Symfony\Component\HttpFoundation\Response;
 
+class IndexController extends AbstractController
+{
+    public function home(){
+        $year = random_int(0,100);
+        return $this->render('index.html.twig', ['year' =>$year]);
+    }
 }
