@@ -20,7 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="00a04495-e231-4f63-835a-ccc8125bf612" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Service/RandomNumberGenerator.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/IndexController.php" afterDir="false" />
     </list>
@@ -35,6 +34,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubProjectSettings">
+    <option name="CREATE_PULL_REQUEST_DEFAULT_BRANCH" value="dev" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_USER" value="VChouliak" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_NAME" value="landon-hotel" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -166,8 +170,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601456524088</updated>
-      <workItem from="1601456533060" duration="7209000" />
+      <workItem from="1601456533060" duration="8007000" />
     </task>
+    <task id="LOCAL-00001" summary="Create RandomNumberGenerator - Service and implement getRandomNumber">
+      <created>1601482916392</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601482916392</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Update">
+      <created>1601482933564</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1601482933564</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Exchange random_int with RandomNumberGenerator service">
+      <created>1601482975322</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1601482975322</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Crate DateCalculator.php">
+      <created>1601483138821</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1601483138821</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Implement yearDifference method">
+      <created>1601483334508</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1601483334509</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,15 +224,31 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Create RandomNumberGenerator - Service and implement getRandomNumber" />
+    <MESSAGE value="Update" />
+    <MESSAGE value="Exchange random_int with RandomNumberGenerator service" />
+    <MESSAGE value="Crate DateCalculator.php" />
+    <MESSAGE value="Implement yearDifference method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement yearDifference method" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="2586" y="260" key="NewPhpClassDialog" timestamp="1601467777253">
+    <state x="2647" y="408" key="Github.CreatePullRequestDialog" timestamp="1601482806699">
       <screen x="1600" y="0" width="2560" height="1080" />
     </state>
-    <state x="2586" y="260" key="NewPhpClassDialog/1600.0.2560.1080/0.26.1600.874@1600.0.2560.1080" timestamp="1601467777253" />
+    <state x="2647" y="408" key="Github.CreatePullRequestDialog/1600.0.2560.1080/0.26.1600.874@1600.0.2560.1080" timestamp="1601482806699" />
+    <state x="2586" y="260" key="NewPhpClassDialog" timestamp="1601483117279">
+      <screen x="1600" y="0" width="2560" height="1080" />
+    </state>
+    <state x="2586" y="260" key="NewPhpClassDialog/1600.0.2560.1080/0.26.1600.874@1600.0.2560.1080" timestamp="1601483117279" />
     <state x="2700" y="464" key="NewPhpFileDialog" timestamp="1601456793945">
       <screen x="1600" y="0" width="2560" height="1080" />
     </state>
     <state x="2700" y="464" key="NewPhpFileDialog/1600.0.2560.1080/0.26.1600.874@1600.0.2560.1080" timestamp="1601456793945" />
+    <state x="2478" y="275" key="Vcs.Push.Dialog.v2" timestamp="1601482830515">
+      <screen x="1600" y="0" width="2560" height="1080" />
+    </state>
+    <state x="2478" y="275" key="Vcs.Push.Dialog.v2/1600.0.2560.1080/0.26.1600.874@1600.0.2560.1080" timestamp="1601482830515" />
     <state x="2584" y="148" width="592" height="783" key="find.popup" timestamp="1601467208174">
       <screen x="1600" y="0" width="2560" height="1080" />
     </state>
