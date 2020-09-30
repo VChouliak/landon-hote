@@ -11,6 +11,13 @@ class IndexController extends AbstractController
 {
     public function home(){
         $year = random_int(0,100);
-        return $this->render('index.html.twig', ['year' =>$year]);
+        $images = [
+            ['url' => 'images/hotel/intro_room.jpg', 'class' => ''],
+            ['url' => 'images/hotel/intro_pool.jpg', 'class' => ''],
+            ['url' => 'images/hotel/intro_dining.jpg', 'class' => ''],
+            ['url' => 'images/hotel/intro_attractions.jpg', 'class' => ''],
+            ['url' => 'images/hotel/intro_wedding.jpg', 'class' => 'hidesm'],
+        ];
+        return $this->render('index.html.twig', ['year' =>$year, 'images' => $images]);
     }
 }
