@@ -4,16 +4,17 @@
 namespace App\Controller;
 
 
+use App\Service\RandomNumberGenerator;
 use Psr\Log\LoggerInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 
 class IndexController extends AbstractController
 {
-    public function home(LoggerInterface $logger){
+    public function home(LoggerInterface $logger, RandomNumberGenerator $numberGenerator){
         $logger -> info('Homepage loaded');
 
-        $year = random_int(0,100);
+        $year = $numbers = $numberGenerator->getRandomNumber();;
         $images = [
             ['url' => 'images/hotel/intro_room.jpg', 'class' => ''],
             ['url' => 'images/hotel/intro_pool.jpg', 'class' => ''],
