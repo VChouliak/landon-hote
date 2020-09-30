@@ -20,6 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="00a04495-e231-4f63-835a-ccc8125bf612" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Service/RandomNumberGenerator.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/IndexController.php" afterDir="false" />
     </list>
@@ -165,7 +166,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601456524088</updated>
-      <workItem from="1601456533060" duration="5403000" />
+      <workItem from="1601456533060" duration="7209000" />
     </task>
     <servers />
   </component>
@@ -184,10 +185,10 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="2586" y="260" key="NewPhpClassDialog" timestamp="1601456858611">
+    <state x="2586" y="260" key="NewPhpClassDialog" timestamp="1601467777253">
       <screen x="1600" y="0" width="2560" height="1080" />
     </state>
-    <state x="2586" y="260" key="NewPhpClassDialog/1600.0.2560.1080/0.26.1600.874@1600.0.2560.1080" timestamp="1601456858611" />
+    <state x="2586" y="260" key="NewPhpClassDialog/1600.0.2560.1080/0.26.1600.874@1600.0.2560.1080" timestamp="1601467777253" />
     <state x="2700" y="464" key="NewPhpFileDialog" timestamp="1601456793945">
       <screen x="1600" y="0" width="2560" height="1080" />
     </state>
