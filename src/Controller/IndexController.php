@@ -17,7 +17,7 @@ class IndexController extends AbstractController
         $logger -> info('Homepage loaded');
         $hotels = $this->getDoctrine()
             ->getRepository(Hotel::class)
-            ->findAll();
+            ->findAllBelowPrice(750);
         $year = $dateCalculator->yearsDifference(self::HOTEL_OPENED);;
         $images = [
             ['url' => 'images/hotel/intro_room.jpg', 'class' => ''],
