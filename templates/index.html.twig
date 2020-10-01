@@ -110,6 +110,14 @@
             <h1>Guest Rooms</h1>
             <p>Our guest rooms feature sumptuous classic furnishings that evoke visions of London’s rich and long-standing tradition of royalty. While our rooms are decked out in classic design, they each have a modern flair, and contain all the modern comforts expected in today’s luxury hotels. We’ve named our rooms for the notable public squares and circuses around which the West End is laid&nbsp;out.</p>
         </header>
+        {% for hotel in hotels %}
+            <article class="room fullheight" id="{{ hotel.tag }}">
+                <section class="content">
+                    <h1>{{ hotel.name }} - {{ hotel.price }} &euro; per night</h1>
+                    <p>{{ hotel.description }}</p>
+                </section>
+            </article>
+        {% endfor %}
     </div><!-- rooms -->
     <div class="scene" id="dining">
         <article id="areadining">
