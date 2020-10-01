@@ -19,7 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00a04495-e231-4f63-835a-ccc8125bf612" name="Default Changelist" comment="" />
+    <list default="true" id="00a04495-e231-4f63-835a-ccc8125bf612" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/hotel_rooms.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -148,14 +151,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="oracle&#10;mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/public" />
     </key>
   </component>
@@ -168,7 +173,7 @@
       <option name="presentableId" value="Default" />
       <updated>1601456524088</updated>
       <workItem from="1601456533060" duration="9347000" />
-      <workItem from="1601544845315" duration="416000" />
+      <workItem from="1601544845315" duration="820000" />
     </task>
     <task id="LOCAL-00001" summary="Create RandomNumberGenerator - Service and implement getRandomNumber">
       <created>1601482916392</created>
@@ -219,7 +224,28 @@
       <option name="project" value="LOCAL" />
       <updated>1601483520774</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Create entity and repository for Hotel">
+      <created>1601545310380</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1601545310380</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Update">
+      <created>1601545319422</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1601545319422</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Create and make migration">
+      <created>1601545479288</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1601545479288</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,10 +269,20 @@
     <MESSAGE value="Crate DateCalculator.php" />
     <MESSAGE value="Implement yearDifference method" />
     <MESSAGE value="Set years in home actions to yearsDiference from DateCaltulator service" />
+    <MESSAGE value="Create entity and repository for Hotel" />
     <MESSAGE value="Update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update" />
+    <MESSAGE value="Create and make migration" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create and make migration" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="2250" y="392" key="#SQL_Dialects" timestamp="1601545607334">
+      <screen x="1600" y="0" width="2560" height="1080" />
+    </state>
+    <state x="2250" y="392" key="#SQL_Dialects/1600.0.2560.1080/0.26.1600.874@1600.0.2560.1080" timestamp="1601545607334" />
+    <state x="2478" y="200" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601545664379">
+      <screen x="1600" y="0" width="2560" height="1080" />
+    </state>
+    <state x="2478" y="200" key="#com.intellij.execution.impl.EditConfigurationsDialog/1600.0.2560.1080/0.26.1600.874@1600.0.2560.1080" timestamp="1601545664379" />
     <state x="2647" y="408" key="Github.CreatePullRequestDialog" timestamp="1601482806699">
       <screen x="1600" y="0" width="2560" height="1080" />
     </state>
@@ -259,10 +295,10 @@
       <screen x="1600" y="0" width="2560" height="1080" />
     </state>
     <state x="2700" y="464" key="NewPhpFileDialog/1600.0.2560.1080/0.26.1600.874@1600.0.2560.1080" timestamp="1601456793945" />
-    <state x="2478" y="275" key="Vcs.Push.Dialog.v2" timestamp="1601482830515">
+    <state x="2478" y="275" width="804" height="529" key="Vcs.Push.Dialog.v2" timestamp="1601545339602">
       <screen x="1600" y="0" width="2560" height="1080" />
     </state>
-    <state x="2478" y="275" key="Vcs.Push.Dialog.v2/1600.0.2560.1080/0.26.1600.874@1600.0.2560.1080" timestamp="1601482830515" />
+    <state x="2478" y="275" width="804" height="529" key="Vcs.Push.Dialog.v2/1600.0.2560.1080/0.26.1600.874@1600.0.2560.1080" timestamp="1601545339602" />
     <state x="2584" y="148" width="592" height="783" key="find.popup" timestamp="1601467208174">
       <screen x="1600" y="0" width="2560" height="1080" />
     </state>
