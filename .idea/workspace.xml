@@ -25,7 +25,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -168,6 +168,7 @@
       <option name="presentableId" value="Default" />
       <updated>1601456524088</updated>
       <workItem from="1601456533060" duration="9347000" />
+      <workItem from="1601544845315" duration="416000" />
     </task>
     <task id="LOCAL-00001" summary="Create RandomNumberGenerator - Service and implement getRandomNumber">
       <created>1601482916392</created>
@@ -234,6 +235,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create RandomNumberGenerator - Service and implement getRandomNumber" />
